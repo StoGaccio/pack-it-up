@@ -29,3 +29,4 @@ if __name__ == '__main__':
     st.write('- ' + str(mu) + ' ' + plul_mut(mu)) #mutande
     st.write('- ' + str(f) + ' ' + plul_fel(f)) #felpe
     st.write('- Beauty case:\n   - Spazzolino\n   - Dentifricio\n   - Shampoo\n   - Bagnoschiuma\n   - '+str(cf)+' Cotton fioc\n   - Deodorante\n   - Pettine\n   - Lametta\n   - Saponetta\n   - Polvere per capelli\n   - Schiuma da barba')
+    st.write('\nBUON VIAGGIO!')
