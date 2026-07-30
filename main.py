@@ -56,5 +56,6 @@ if __name__ == '__main__':
     st.write('- Pigiama')   #pigiama
     if cs == True:  #crema solare
         st.write('- Crema solare')
+    st.write('- Borraccia') #borraccia
 
     st.write('\nBUON VIAGGIO!') #saluti
