@@ -44,7 +44,7 @@ if __name__ == '__main__':
     st.write('- ' + str(c) + ' ' + plul_calz(c)) #calze
     st.write('- ' + str(mu) + ' ' + plul_mut(mu)) #mutande
     st.write('- ' + str(f) + ' ' + plul_fel(f)) #felpe
-    st.write('- Beauty case:\n   - Spazzolino\n   - Dentifricio\n   - Shampoo\n   - Bagnoschiuma\n   - '+str(cf)+' Cotton fioc\n   - Deodorante\n   - Pettine\n   - Lametta\n   - Saponetta\n   - Polvere per capelli\n   - Schiuma da barba')
+    st.write('- Beauty case:\n   - Spazzolino\n   - Dentifricio\n   - Shampoo\n   - Bagnoschiuma\n   - '+str(cf)+' Cotton fioc\n   - Deodorante\n   - Pettine\n   - Lametta\n   - Saponetta\n  - Schiuma da barba')
     #beauty case
     st.write('- Caricabatterie\n   - Trasformatore\n  - Cavi per i tuoi dispositivi, non li so')    #cavetteria
     st.write('- Cuffie')    #cuffie e cuffiette
@@ -56,6 +56,7 @@ if __name__ == '__main__':
     st.write('- Pigiama')   #pigiama
     if cs == True:  #crema solare
         st.write('- Crema solare')
+        st.write('- Crema doposole')
     st.write('- Borraccia') #borraccia
 
     st.write('\nBUON VIAGGIO!') #saluti
