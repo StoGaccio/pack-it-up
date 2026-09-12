@@ -1,6 +1,19 @@
 #importo le librerie
 import streamlit as st  #streamlit
+import requests #requests
+from io import BytesIO #io
+from PIL import Image #PIL
+#Importo requests, io e PIL per poter impostare una favicon
 from plurali import plul_calz, plul_mut, plul_pant, plurale_magliett, plul_fel #funzioni per il plurale
+
+#impostazione favicon
+immagine = "https://github.com/StoGaccio/StoGaccio/blob/main/bozzettino.png?raw=true" #incollo il link alla favicon
+
+risposta = requests.get(immagine)
+icona = Image.open(BytesIO(risposta.content))
+#scarico la favicon
+
+st.set_page_config(page_title="Mia App", page_icon=icona) #imposto la favicon
 
 if __name__ == '__main__':
     
