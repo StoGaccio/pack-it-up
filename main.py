@@ -13,7 +13,7 @@ risposta = requests.get(immagine)
 icona = Image.open(BytesIO(risposta.content))
 #scarico la favicon
 
-st.set_page_config(page_title="Mia App", page_icon=icona) #imposto la favicon
+st.set_page_config(page_title="Pack It Up", page_icon=icona) #imposto la favicon
 
 if __name__ == '__main__':
     
